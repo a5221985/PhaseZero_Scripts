@@ -23,7 +23,7 @@ CREATE TABLE category
 	code        TEXT  NOT NULL,
 	name        TEXT NOT NULL,
 	parent_id   BIGINT,
-	path        TEXT,
+--	path        TEXT,
 	comp_id     BIGINT,
 	status INT default 1,
 	created_on 	TIMESTAMP,
