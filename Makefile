@@ -8,6 +8,6 @@ sql/$(EXTENSION)--$(EXTENSION_VERSION)$(SCRIPT_EXTENSION): sql/create_table_ddl.
 
 DATA = sql/$(EXTENSION)--$(EXTENSION_VERSION)$(SCRIPT_EXTENSION)
 
-PG_CONFIG = pg_config
+PG_CONFIG = /usr/pgsql-9.5/bin/pg_config
 PGXS := $(shell $(PG_CONFIG) --pgxs)
 include $(PGXS)
